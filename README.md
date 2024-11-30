@@ -17,3 +17,7 @@ but you need to go beyond that.
 ## Runtime Analysis
 
 What is the worst-case big $\Theta$ time complexity of your algorithm?
+
+Worst case: $\Theta$(n)
+
+The asymptotic complexity scales with the input size in every single iteration of this algorithm, which means it runs in linear time.
