@@ -17,10 +17,14 @@ function factorial(n) {
 }
 
 function e(n) {
-    if(n === 0) return 1;
-    else sum = 1.0;
+    let euler = 1.0;
+    let factorial = 1.0;
+
+    if(n < 0) return null;
+    if(n === 0) return euler;
+
     for(i = 1; i <= n; i++) {
-        sum += 1.0 / factorial(i);
+        euler += (1.0 / (factorial *= i));
     }
-    return sum;
+    return euler;
 }
